@@ -1,23 +1,16 @@
-C:/intelFPGA/16.1/Verilog/universal_nor_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nor_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module universal_nor_tb
-
-Top level modules:
-	universal_nor_tb
-
-} {} {}} C:/intelFPGA/16.1/Verilog/hamming_encoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_encoder.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module hamming_encoder
-
-Top level modules:
-	hamming_encoder
-
-} {} {}} C:/intelFPGA/16.1/Verilog/decoder3to8.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/decoder3to8.v
+C:/intelFPGA/16.1/Verilog/decoder3to8.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/decoder3to8.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module decoder3to8
 
 Top level modules:
 	decoder3to8
+
+} {} {}} C:/intelFPGA/16.1/Verilog/universal_nor.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module universal_nor
+
+Top level modules:
+	universal_nor
 
 } {} {}} C:/intelFPGA/16.1/Verilog/universal_nand.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nand.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -26,19 +19,75 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	universal_nand
 
+} {} {}} C:/intelFPGA/16.1/Verilog/half_adder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_decoder_tb
+
+Top level modules:
+	hamming_decoder_tb
+
+} {} {}} C:/intelFPGA/16.1/Verilog/universal_nor_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nor_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module universal_nor_tb
+
+Top level modules:
+	universal_nor_tb
+
 } {} {}} C:/intelFPGA/16.1/Verilog/b2gdataflow.v {0 {vlog -work work -stats=none {C:\intelFPGA\16.1\Verilog\b2gdataflow.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module b2gdataflow
-** Warning: (vlog-2121) C:\intelFPGA\16.1\Verilog\b2gdataflow.v(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-** Warning: (vlog-2121) C:\intelFPGA\16.1\Verilog\b2gdataflow.v(7): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(7): Register is illegal in left-hand side of continuous assignment
-** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(7): Illegal left-hand side in continuous assignment.
+** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(1): (vlog-2730) Undefined variable: 'bin'.
+** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(1): Identifier must be declared with a port mode: bin.
+** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(1): (vlog-2730) Undefined variable: 'gray'.
+** Error: C:\intelFPGA\16.1\Verilog\b2gdataflow.v(1): Identifier must be declared with a port mode: gray.
 
-} {6.0 8.0} {}} C:/intelFPGA/16.1/Verilog/hamming_decoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_decoder.v
+} {4.0 8.0} {}} C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_encoder_tb
+
+Top level modules:
+	hamming_encoder_tb
+
+} {} {}} C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fa_by_ha_tb
+
+Top level modules:
+	fa_by_ha_tb
+
+} {} {}} C:/intelFPGA/16.1/Verilog/hamming_decoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_decoder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module hamming_decoder
 
 Top level modules:
 	hamming_decoder
+
+} {} {}} C:/intelFPGA/16.1/Verilog/universal_nand_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nand_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module universal_nand_tb
+
+Top level modules:
+	universal_nand_tb
+
+} {} {}} C:/intelFPGA/16.1/Verilog/hamming_encoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_encoder
+
+Top level modules:
+	hamming_encoder
+
+} {} {}} C:/intelFPGA/16.1/Verilog/decoder3to8_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/decoder3to8_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder3to8_tb
+
+Top level modules:
+	decoder3to8_tb
 
 } {} {}}
