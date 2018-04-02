@@ -1,7 +1,15 @@
 module b2gdataflow(bin, gray);
-	parameter n = 2;
-	input 	[n:0] bin;
-	output 	[n:0] gray;
-	assign 	gray[n] 		= bin[n];
-	assign 	{gray[n-1], count}	= (count>=1)?{(bin[count]^bin[count-1]),(count - 1)}:{'bx,0};  
+	parameter N = 3;
+	input [N-1:0] gray, bin;
+	assign gray[N-1] = bin[N-1];
+	assign gray[N-2:0] = (bin[N-1:1]^bin[N-2:0]); 
+endmodule
+module b2g_test;
+	reg [2:0] bin;
+	wire [2:0] gray;
+
+	b2gdataflow uut(.*);
+	initial begin
+		#2 bin = 3'b101;
+	end
 endmodule

@@ -8,29 +8,71 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/intelFPGA/16.1/Verilog
+vb2g_test
+Z1 !s110 1522701186
+!i10b 1
+!s100 R6`S`^;VV<R@kGRII3_GO2
+IX>8KS5gF?;[=YSNenhdG?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1522701184
+Z4 8C:\intelFPGA\16.1\Verilog\b2gdataflow.v
+Z5 FC:\intelFPGA\16.1\Verilog\b2gdataflow.v
+L0 7
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1522701186.000000
+Z8 !s107 C:\intelFPGA\16.1\Verilog\b2gdataflow.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:\intelFPGA\16.1\Verilog\b2gdataflow.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vb2gdataflow
+R1
+!i10b 1
+!s100 aHSG3XDdI4HFeVPJ8ffB42
+IScl3Y3koaMn_k?oO3COLo3
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
 vbcd_adder
-Z1 !s110 1522699215
+Z12 !s110 1522700680
 !i10b 1
 !s100 YZ<0hZMnXED3^IHgEYHn;0
 I>aCG[1oeQ?>z]2VB7ggZ[1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1522698784
 8C:/intelFPGA/16.1/Verilog/bcd_adder.v
 FC:/intelFPGA/16.1/Verilog/bcd_adder.v
 L0 2
-Z3 OV;L;10.5b;63
+R6
 r1
 !s85 0
 31
-Z4 !s108 1522699215.000000
+Z13 !s108 1522700680.000000
 !s107 C:/intelFPGA/16.1/Verilog/bcd_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/bcd_adder.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+R10
+R11
 vbcd_adder_tb
-!s110 1522699216
+R12
 !i10b 1
 !s100 UZ5YG^C_:N?W?njfY3<@53
 I?[6kebRzGffgVORY@dJRb3
@@ -40,18 +82,18 @@ w1522698497
 8C:/intelFPGA/16.1/Verilog/bcd_adder_tb.v
 FC:/intelFPGA/16.1/Verilog/bcd_adder_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-!s108 1522699216.000000
+R13
 !s107 C:/intelFPGA/16.1/Verilog/bcd_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/bcd_adder_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vcla_adder
-R1
+R12
 !i10b 1
 !s100 S]GiedOjO6kgMT=O50?O12
 IigZ:e2HVc[>?Nddzfj52`3
@@ -61,18 +103,18 @@ w1522699067
 8C:/intelFPGA/16.1/Verilog/cla_adder.v
 FC:/intelFPGA/16.1/Verilog/cla_adder.v
 L0 3
-R3
+R6
 r1
 !s85 0
 31
-R4
+Z14 !s108 1522700679.000000
 !s107 C:/intelFPGA/16.1/Verilog/cla_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/cla_adder.v|
 !i113 1
-R5
-R6
+R10
+R11
 vcla_adder_tb
-R1
+R12
 !i10b 1
 !s100 d]AO2@`0AiGG>164amRlc2
 I1>V3>X9b@LaR>Fc4Bn`>63
@@ -82,18 +124,18 @@ w1522697341
 8C:/intelFPGA/16.1/Verilog/cla_adder_tb.v
 FC:/intelFPGA/16.1/Verilog/cla_adder_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R4
+R13
 !s107 C:/intelFPGA/16.1/Verilog/cla_adder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/cla_adder_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vdecoder3to8
-Z7 !s110 1522699213
+!s110 1522700675
 !i10b 1
 !s100 `<C<ZE`Fh_]ZJonAla=nm1
 IcHdCJYQleg@ZNTBl[M;_k2
@@ -103,18 +145,18 @@ w1522688280
 8C:/intelFPGA/16.1/Verilog/decoder3to8.v
 FC:/intelFPGA/16.1/Verilog/decoder3to8.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-Z8 !s108 1522699213.000000
+!s108 1522700674.000000
 !s107 C:/intelFPGA/16.1/Verilog/decoder3to8.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/decoder3to8.v|
 !i113 1
-R5
-R6
+R10
+R11
 vdecoder3to8_tb
-R7
+Z15 !s110 1522700676
 !i10b 1
 !s100 ZQG]c_STTAHA_?QH0W=^g2
 IDQ4::^P2EenL9Q@B49]KR2
@@ -124,18 +166,18 @@ w1522689706
 8C:/intelFPGA/16.1/Verilog/decoder3to8_tb.v
 FC:/intelFPGA/16.1/Verilog/decoder3to8_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R8
+!s108 1522700675.000000
 !s107 C:/intelFPGA/16.1/Verilog/decoder3to8_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/decoder3to8_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vfa_by_ha
-R1
+Z16 !s110 1522700678
 !i10b 1
 !s100 a5C]l7BQ9GfXc<<dKX=ej1
 IXChcA^_E?^g7L5Kzk4W6<3
@@ -145,18 +187,18 @@ w1522693719
 8C:/intelFPGA/16.1/Verilog/fa_by_ha.v
 FC:/intelFPGA/16.1/Verilog/fa_by_ha.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-Z9 !s108 1522699214.000000
+Z17 !s108 1522700678.000000
 !s107 C:/intelFPGA/16.1/Verilog/fa_by_ha.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/fa_by_ha.v|
 !i113 1
-R5
-R6
+R10
+R11
 vfa_by_ha_tb
-R1
+Z18 !s110 1522700679
 !i10b 1
 !s100 jR6;gfXznUQd>BaMIbUFP1
 Im[[KzX7a=@J]]BMS2Ydf30
@@ -166,18 +208,18 @@ w1522693639
 8C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v
 FC:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R4
+R14
 !s107 C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vhalf_adder
-Z10 !s110 1522699214
+R16
 !i10b 1
 !s100 7b8m82Wj?a]6BUoh[5=o>2
 I1oS9:hgk64e_O^a0`eoQm0
@@ -187,18 +229,18 @@ w1522693485
 8C:/intelFPGA/16.1/Verilog/half_adder.v
 FC:/intelFPGA/16.1/Verilog/half_adder.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R9
+R17
 !s107 C:/intelFPGA/16.1/Verilog/half_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/half_adder.v|
 !i113 1
-R5
-R6
+R10
+R11
 vhamming_decoder
-R7
+R15
 !i10b 1
 !s100 :kTlLnIZeoC_7jT[U=[lC0
 IkR9o0OM3<92l0PIB>BL?c1
@@ -208,18 +250,18 @@ w1522691072
 8C:/intelFPGA/16.1/Verilog/hamming_decoder.v
 FC:/intelFPGA/16.1/Verilog/hamming_decoder.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R8
+Z19 !s108 1522700676.000000
 !s107 C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
 !i113 1
-R5
-R6
-vhamming_decoder_tb
 R10
+R11
+vhamming_decoder_tb
+Z20 !s110 1522700677
 !i10b 1
 !s100 ]aM>m:z8B33O?2T`M=S8G0
 IB:AKAK2CP>E4LLV8GSM??3
@@ -229,18 +271,18 @@ w1522691647
 8C:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v
 FC:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R9
+Z21 !s108 1522700677.000000
 !s107 C:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_decoder_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vhamming_encoder
-R7
+R15
 !i10b 1
 !s100 ?VBHTMX16CL3MW_5OF^^`1
 I`W:<I_><aL2=dDk[E8IHj2
@@ -250,18 +292,18 @@ w1522699147
 8C:/intelFPGA/16.1/Verilog/hamming_encoder.v
 FC:/intelFPGA/16.1/Verilog/hamming_encoder.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R8
+R19
 !s107 C:/intelFPGA/16.1/Verilog/hamming_encoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_encoder.v|
 !i113 1
-R5
-R6
+R10
+R11
 vhamming_encoder_tb
-R7
+R15
 !i10b 1
 !s100 g<fn8cNmZVS?R<G3^V`>>1
 IAez0H<;R12VD?Si?49F6M3
@@ -271,18 +313,18 @@ w1522691143
 8C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v
 FC:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R8
+R19
 !s107 C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vmultiplier_2
-R1
+R18
 !i10b 1
 !s100 kHAXV2K9l_[JEh_<IY=co0
 I^RX6lRWNCi:a<XJGTH6;;1
@@ -292,37 +334,37 @@ w1522695637
 8C:/intelFPGA/16.1/Verilog/multiplier_4.v
 FC:/intelFPGA/16.1/Verilog/multiplier_4.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R4
+R14
 !s107 C:/intelFPGA/16.1/Verilog/multiplier_4.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/multiplier_4.v|
 !i113 1
-R5
-R6
+R10
+R11
 vmultiplier_2_tb
-R1
+R18
 !i10b 1
 !s100 R_F1JcCFT=;LTIJP?ggfE2
 IB`e9_SB3K<3e<Y3O0Al:^3
 R2
 R0
 w1522695835
-Z11 8C:/intelFPGA/16.1/Verilog/multiplier_tb.v
-Z12 FC:/intelFPGA/16.1/Verilog/multiplier_tb.v
+Z22 8C:/intelFPGA/16.1/Verilog/multiplier_tb.v
+Z23 FC:/intelFPGA/16.1/Verilog/multiplier_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R4
-Z13 !s107 C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
+R14
+Z24 !s107 C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
 vmultiplier_4_tb
 !s110 1522695811
 !i10b 1
@@ -331,21 +373,21 @@ Idb:RY?8Q[D45B`K=CYi@A2
 R2
 R0
 w1522695807
-R11
-R12
+R22
+R23
 L0 2
-R3
+R6
 r1
 !s85 0
 31
 !s108 1522695811.000000
-R13
-R14
+R24
+R25
 !i113 1
-R5
-R6
-vuniversal_nand
 R10
+R11
+vuniversal_nand
+R20
 !i10b 1
 !s100 m1KUciS2`dIEVmgzS4@<E1
 IKgYgTI1P7cca_gLL8`dej2
@@ -355,18 +397,18 @@ w1522699115
 8C:/intelFPGA/16.1/Verilog/universal_nand.v
 FC:/intelFPGA/16.1/Verilog/universal_nand.v
 L0 3
-R3
+R6
 r1
 !s85 0
 31
-R9
+R21
 !s107 C:/intelFPGA/16.1/Verilog/universal_nand.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nand.v|
 !i113 1
-R5
-R6
-vuniversal_nand_tb
 R10
+R11
+vuniversal_nand_tb
+R20
 !i10b 1
 !s100 NRgIY5`VjI=WWZ`7AU@O00
 IimD7UE8o4]UWT>K]Sc_U:0
@@ -376,18 +418,18 @@ w1522692661
 8C:/intelFPGA/16.1/Verilog/universal_nand_tb.v
 FC:/intelFPGA/16.1/Verilog/universal_nand_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R9
+R21
 !s107 C:/intelFPGA/16.1/Verilog/universal_nand_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nand_tb.v|
 !i113 1
-R5
-R6
-vuniversal_nor
 R10
+R11
+vuniversal_nor
+R16
 !i10b 1
 !s100 8SfCKhiIg9<]gW;LUBBOm0
 I0EN^kz0:1SdA8hDe>B]ck0
@@ -397,18 +439,18 @@ w1522699081
 8C:/intelFPGA/16.1/Verilog/universal_nor.v
 FC:/intelFPGA/16.1/Verilog/universal_nor.v
 L0 3
-R3
+R6
 r1
 !s85 0
 31
-R9
+R17
 !s107 C:/intelFPGA/16.1/Verilog/universal_nor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nor.v|
 !i113 1
-R5
-R6
-vuniversal_nor_tb
 R10
+R11
+vuniversal_nor_tb
+R16
 !i10b 1
 !s100 oS;YCQWz3C`65fY;cJ:6S3
 I40`NGQKodh]_gZWTENn1R1
@@ -418,13 +460,13 @@ w1522692686
 8C:/intelFPGA/16.1/Verilog/universal_nor_tb.v
 FC:/intelFPGA/16.1/Verilog/universal_nor_tb.v
 L0 2
-R3
+R6
 r1
 !s85 0
 31
-R9
+R17
 !s107 C:/intelFPGA/16.1/Verilog/universal_nor_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nor_tb.v|
 !i113 1
-R5
-R6
+R10
+R11
