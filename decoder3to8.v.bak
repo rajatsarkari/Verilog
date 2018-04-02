@@ -1,0 +1,15 @@
+//3 to 8 Decoder
+module decoder3to8(
+	input en,
+	input [2:0] in,
+	output [7:0] out
+	);
+	and 	(out, en, ~in[2], ~in[1], ~in[0]),
+		(out, en, ~in[2], ~in[1], in[0]),
+		(out, en, ~in[2], in[1], ~in[0]),
+		(out, en, ~in[2], in[1], in[0]),
+		(out, en, in[2], ~in[1], ~in[0]),
+		(out, en, in[2], ~in[1], in[0]),
+		(out, en, in[2], in[1], ~in[0]),
+		(out, en, in[2], in[1], in[0]);
+endmodule

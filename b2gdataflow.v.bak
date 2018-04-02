@@ -1,0 +1,7 @@
+module b2gdataflow(bin, gray);
+	parameter n = 2;
+	input 	[n:0] bin;
+	output 	[n:0] gray;
+	assign 	gray[n] 		= bin[n];
+	assign 	{gray[n-1], count}	= (count>=1)?{(bin[count]^bin[count-1]),(count - 1)}:{'bx,0};  
+endmodule
