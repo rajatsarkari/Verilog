@@ -11,6 +11,6 @@ module hamming_decoder_tb;
 		#5 in = 7'd3;
 		#5 in = 7'd5;
 		#5 in = 7'd7;
-		#5 in = 7'b1011011;
+		#5 in = 7'b1011011; //Output is 1000 corrected 5th error bit
 	end
 endmodule

@@ -66,8 +66,8 @@ r1
 !s85 0
 31
 !s108 1522691229.000000
-!s107 C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
-Z7 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
+Z7 !s107 C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
 !i113 1
 R3
 R4
@@ -108,8 +108,8 @@ r1
 !s85 0
 31
 !s108 1522691032.000000
-!s107 C:/intelFPGA/16.1/Verilog/hamming_decoder.v|
 R7
+R8
 !i113 1
 R3
 R4
@@ -131,6 +131,90 @@ r1
 !s108 1522689945.000000
 !s107 C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v|
+!i113 1
+R3
+R4
+vuniversal_nand
+!s110 1522692159
+!i10b 1
+!s100 BJ22bV6PWz0NH;JhjI:O42
+IT[LVe1JTh4jnETaY@2k]z1
+R1
+R0
+w1522692153
+8C:/intelFPGA/16.1/Verilog/universal_nand.v
+FC:/intelFPGA/16.1/Verilog/universal_nand.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1522692159.000000
+!s107 C:/intelFPGA/16.1/Verilog/universal_nand.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nand.v|
+!i113 1
+R3
+R4
+vuniversal_nand_tb
+!s110 1522692397
+!i10b 1
+!s100 Pl6^dP1n^XCYb_>YGFWE?0
+IcjeoGSWZo?RU@m6]2KkET0
+R1
+R0
+w1522692390
+8C:/intelFPGA/16.1/Verilog/universal_nand_tb.v
+FC:/intelFPGA/16.1/Verilog/universal_nand_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1522692397.000000
+!s107 C:/intelFPGA/16.1/Verilog/universal_nand_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nand_tb.v|
+!i113 1
+R3
+R4
+vuniversal_nor
+!s110 1522692927
+!i10b 1
+!s100 5U>RkOd>YPBmcBcYPPoNf1
+I_TMCi2hHoL;8JY7;U[5Lc1
+R1
+R0
+w1522692920
+8C:/intelFPGA/16.1/Verilog/universal_nor.v
+FC:/intelFPGA/16.1/Verilog/universal_nor.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1522692927.000000
+!s107 C:/intelFPGA/16.1/Verilog/universal_nor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nor.v|
+!i113 1
+R3
+R4
+vuniversal_nor_tb
+!s110 1522692689
+!i10b 1
+!s100 oS;YCQWz3C`65fY;cJ:6S3
+I40`NGQKodh]_gZWTENn1R1
+R1
+R0
+w1522692686
+8C:/intelFPGA/16.1/Verilog/universal_nor_tb.v
+FC:/intelFPGA/16.1/Verilog/universal_nor_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1522692689.000000
+!s107 C:/intelFPGA/16.1/Verilog/universal_nor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/universal_nor_tb.v|
 !i113 1
 R3
 R4

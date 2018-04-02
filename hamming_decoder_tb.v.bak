@@ -4,13 +4,13 @@ module hamming_decoder_tb;
 	reg en;
 	wire [3:0] out;
 
-	hamming_encoder uut(.*);
+	hamming_decoder uut(.*);
 	initial begin
 		en = 1'b1;
-		#5 in = 4'd1;
-		#5 in = 4'd3;
-		#5 in = 4'd5;
-		#5 in = 4'd7;
-		#5 in = 4'd11;
+		#5 in = 7'd1;
+		#5 in = 7'd3;
+		#5 in = 7'd5;
+		#5 in = 7'd7;
+		#5 in = 7'b1011011; //Output is 1000
 	end
 endmodule
