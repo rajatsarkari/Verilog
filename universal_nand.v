@@ -1,4 +1,5 @@
 //NAND as a universal gate
+//Universal NAND
 module universal_nand(
 	input a, b,
 	output nota,

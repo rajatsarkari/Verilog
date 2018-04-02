@@ -1,4 +1,5 @@
 //NOR as a universal gate
+// Universal NOR
 module universal_nor(
 	input a, b,
 	output nota,

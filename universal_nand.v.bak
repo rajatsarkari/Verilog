@@ -8,7 +8,7 @@ module universal_nand(
 	output xora,
 	output xnora		
 	);
-	wite t1, t2, t3;
+	wire t1, t2, t3;
 	//NOT gate
 	nand (nota, a, a);
 	//AND gate

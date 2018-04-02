@@ -16,7 +16,7 @@ module universal_nor(
 	nor (ora, t1, t1);
 	//AND gate
 	nor (notb, b, b);
-	nor (ora, nota, notb);
+	nor (anda, nota, notb);
 	//XOR gate
 	nor (xora, xnora, xnora);
 	//XNOR gate

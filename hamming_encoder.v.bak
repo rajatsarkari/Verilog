@@ -9,5 +9,5 @@ module hamming_encoder(
 		(out[3], en, in[3], in[2], in[1]),
 		(out[4], en, in[1]),
 		(out[5], en, in[2]),
-		(out[6], en, in[3]),
+		(out[6], en, in[3]);
 endmodule

@@ -1,3 +1,4 @@
+//Hamming Encoder
 module hamming_encoder(
 	input [3:0] in,
 	input en,

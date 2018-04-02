@@ -1,4 +1,5 @@
 //Carry look ahead adder
+// Carry look ahead adder
 module cla_adder(
 	input [3:0] a, b,
 	output [3:0] sum,
