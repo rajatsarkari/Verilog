@@ -197,6 +197,69 @@ R4
 !i113 1
 R5
 R6
+vmultiplier_2
+!s110 1522695571
+!i10b 1
+!s100 UJDZ42[fP^1dzT>S4h=]23
+I>CL0QmU;QgYR8mUln;z^m0
+R2
+R0
+w1522695567
+8C:/intelFPGA/16.1/Verilog/multiplier_4.v
+FC:/intelFPGA/16.1/Verilog/multiplier_4.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1522695571.000000
+!s107 C:/intelFPGA/16.1/Verilog/multiplier_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/multiplier_4.v|
+!i113 1
+R5
+R6
+vmultiplier_2_tb
+!s110 1522695839
+!i10b 1
+!s100 R_F1JcCFT=;LTIJP?ggfE2
+IB`e9_SB3K<3e<Y3O0Al:^3
+R2
+R0
+w1522695835
+Z10 8C:/intelFPGA/16.1/Verilog/multiplier_tb.v
+Z11 FC:/intelFPGA/16.1/Verilog/multiplier_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1522695839.000000
+!s107 C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
+!i113 1
+R5
+R6
+vmultiplier_4_tb
+!s110 1522695811
+!i10b 1
+!s100 k3zWdJ0@ZH?8HN5hRN=8Y0
+Idb:RY?8Q[D45B`K=CYi@A2
+R2
+R0
+w1522695807
+R10
+R11
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1522695811.000000
+!s107 C:/intelFPGA/16.1/Verilog/multiplier_tb.v|
+R12
+!i113 1
+R5
+R6
 vuniversal_nand
 R9
 !i10b 1
