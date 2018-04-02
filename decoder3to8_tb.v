@@ -1,3 +1,4 @@
+//3 to 8 Decoder Testbench
 module decoder3to8_tb;
 	reg [2:0] in;
 	reg en;

@@ -3,7 +3,7 @@ module decoder3to8_tb;
 	reg en;
 	wire [7:0] out;
 
-	decoder3to8 uut(*);
+	decoder3to8 uut(.*);
 	initial begin
 		en = 1'b1;
 		#5 in = 3'd1;
