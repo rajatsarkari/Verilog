@@ -1,8 +1,8 @@
-//Hamming Encoder testbench
-module hamming_encoder_tb;
-	reg [3:0] in;
+//Hamming Decoder testbench
+module hamming_decoder_tb;
+	reg [6:0] in;
 	reg en;
-	wire [6:0] out;
+	wire [3:0] out;
 
 	hamming_encoder uut(.*);
 	initial begin
