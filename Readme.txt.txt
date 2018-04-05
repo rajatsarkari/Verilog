@@ -31,3 +31,33 @@ List of programs along with their test fixtures:
 29. Sequence Detector Overlapping
 30. Counter (Different types) 
 31. Universal Shift Register
+
+
+
+
+
+//////////////////////////////////
+
+force releas 
+assign and deassign 
+generet block 
+ifnone 
+swap veriable without temp veriable and with temp 
+initial and final block 
+disable 
+disable fork 
+task and function 
+automatic task and function 
+sequeential and combination udp 
+copmiler directives 
+timescale
+full casse 
+parelle case 
+casex casez case
+whitch one best if or case 
+diff b/w conditional operator and if else 
+x pessimisam in conditional operator 
+== & === 
+>> & >>>
+
+I am still in love with 'x' Paper read

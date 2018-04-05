@@ -2,6 +2,7 @@ module b2gdataflow(bin, gray);
 	parameter N = 4;
 	input [N-1:0] gray;
 	output [N-1:0] bin;
+
 	assign gray[N-1] = bin[N-1];
 	assign gray[N-2:0] = (bin[N-1:1]^bin[N-2:0]); 
 endmodule
