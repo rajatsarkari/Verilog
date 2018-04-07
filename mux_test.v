@@ -1,0 +1,13 @@
+// Testbench for mux
+module mux_test;
+	reg [1:0] in;
+	reg en, sel;
+	wire out;
+
+	mux2to1 uut(.in(in), .en(en), .sel(sel), .out(out));
+
+	initial begin
+		sel = 1'b0;
+		#1 in = 2'b01; en = 1'b1; 
+	end
+endmodule
