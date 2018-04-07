@@ -1,3 +1,6 @@
+# OpenFile C:/intelFPGA/16.1/Verilog/muxnbit.v
+project open C:/intelFPGA/16.1/Verilog/Tests
+# Loading project Tests
 # Compile of b2gdataflow.v was successful.
 # Compile of decoder3to8.v was successful.
 # Compile of decoder3to8_tb.v was successful.
@@ -18,7 +21,5 @@
 # Compile of cla_adder_tb.v was successful.
 # Compile of bcd_adder.v was successful.
 # Compile of bcd_adder_tb.v was successful.
-# Compile of mux2to1.v was successful.
-# Compile of mux_test.v was successful.
-# Compile of shifts.v was successful.
-# 23 compiles, 0 failed with no errors.
+# Compile of muxnbit.v was successful.
+# 21 compiles, 0 failed with no errors.

@@ -75,13 +75,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	hamming_decoder_tb
 
-} {} {}} C:/intelFPGA/16.1/Verilog/cla_adder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/cla_adder_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cla_adder_tb
-
-Top level modules:
-	cla_adder_tb
-
 } {} {}} C:/intelFPGA/16.1/Verilog/universal_nor_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nor_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module universal_nor_tb
@@ -89,12 +82,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	universal_nor_tb
 
-} {} {}} C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v
+} {} {}} C:/intelFPGA/16.1/Verilog/cla_adder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/cla_adder_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module hamming_encoder_tb
+-- Compiling module cla_adder_tb
 
 Top level modules:
-	hamming_encoder_tb
+	cla_adder_tb
 
 } {} {}} C:/intelFPGA/16.1/Verilog/b2gdataflow.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/b2gdataflow.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -107,12 +100,19 @@ Top level modules:
 	b2g_test
 	g2b_test
 
-} {} {}} C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v
+} {} {}} C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_encoder_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fa_by_ha_tb
+-- Compiling module hamming_encoder_tb
 
 Top level modules:
-	fa_by_ha_tb
+	hamming_encoder_tb
+
+} {} {}} C:/intelFPGA/16.1/Verilog/hamming_decoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hamming_decoder
+
+Top level modules:
+	hamming_decoder
 
 } {} {}} C:/intelFPGA/16.1/Verilog/universal_nand_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/universal_nand_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -121,12 +121,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	universal_nand_tb
 
-} {} {}} C:/intelFPGA/16.1/Verilog/hamming_decoder.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/hamming_decoder.v
+} {} {}} C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/fa_by_ha_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module hamming_decoder
+-- Compiling module fa_by_ha_tb
 
 Top level modules:
-	hamming_decoder
+	fa_by_ha_tb
 
 } {} {}} C:/intelFPGA/16.1/Verilog/muxnbit.v {1 {vlog -work work -stats=none C:/intelFPGA/16.1/Verilog/muxnbit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
